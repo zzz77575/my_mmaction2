@@ -76,11 +76,9 @@ git clone https://github.com/open-mmlab/mmaction2.git
 - **Bug fix:**  
   Directly using `test_pipeline` with `Resize` (scale=(-1, 224)) and `CenterCrop` raises an error.
 
-- Solution:  
-  Follow Kataglyphis's answer in GitHub Issue #2783 to add fix lines in `long_video_demo.py`.
-
+- **Solution:**  
+  Follow Kataglyphis's answer in  mmaction2 [Issue #2783](https://github.com/open-mmlab/mmaction2/issues/2783) to add fix lines in `long_video_demo.py`.
 ---
-
 
 ## VSCode Video Preview Tip
 
