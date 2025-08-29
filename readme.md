@@ -29,22 +29,7 @@ git clone https://github.com/open-mmlab/mmaction2.git
   - `videos_train`
   - `videos_val`
 
-- Sliced videos (based on excel) are located on our server1: `/data/sda1/shared/sliced_video`
-
-- Dataset split:
-  - Train set: persons 1-10
-  - Test set: persons 11-15
-
-- Video naming format:  
-  `"s{person}_a{action}_{scene}_{excel row number}_rep{repitition}_frames_{start_frame}_{end_frame}_{view}.mp4"`
-
-- Note:  
-  There is an approximate 6-frame offset between views C and L.  
-  All `start_frame` and `end_frame` correspond to view C.
-
 - Organize videos into corresponding action folders inside `videos_train` and `videos_val`.
-
-- For long videos (actions like shooting, catching fish …), manually slice the videos into multiple clips.
 
 ---
 
